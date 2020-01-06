@@ -1,0 +1,25 @@
+ => Functions
+
+
+=====================================Diferença entre var e let=============================================
+function quarquerCoisa() {
+
+    var a =1
+    if(a == 1) { //b e declarado dentro do if mas fica  visivel fora
+    var b = 2;
+    }
+    var c = a + b;
+}
+
+
+function quarquerCoisa() {
+
+    let a =1
+    if (a == 1) { // b e declarado dentro do if e nao fica visivel fora
+    let b = 2;
+    }
+    let c = a + b;
+}
+
+==============================DEsabilitar step==================================
+  '@disabled': true, colocar apos o module
