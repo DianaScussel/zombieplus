@@ -1,6 +1,6 @@
 pipeline{
  agent {
-     docker { image "node"}
+     docker { image "papitoio/node-wd"}
  }  
  stages {
      stage('Build') {
@@ -11,7 +11,7 @@ pipeline{
      }
      stage('Tests') {
          steps {
-            sh "npm test"
+            sh "npm test: ci"
          }
          
      }
