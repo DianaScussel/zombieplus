@@ -16,10 +16,7 @@ module.exports = {
         start_process: true,
     },
 
-    test_workers: {
-        enabled: false,
-        workers: 2
-    },
+
 
     screenshots: {
         enabled: true,
